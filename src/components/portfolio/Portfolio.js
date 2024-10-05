@@ -1,9 +1,9 @@
-import React from "react";
-import Title from "../title/Title";
-import { Data_JS } from "../../asserts/Data_JS";
-import { Data_React } from "../../asserts/Data_React";
-import { Data_Angular } from "../../asserts/Data_Angular";
-import "./Portfolio.css";
+import React from 'react';
+import Title from '../title/Title';
+import { Data_JS } from '../../asserts/Data_JS';
+import { Data_React } from '../../asserts/Data_React';
+import { Data_Angular } from '../../asserts/Data_Angular';
+import './Portfolio.css';
 
 export default function Portfolio() {
   return (
@@ -24,8 +24,10 @@ export default function Portfolio() {
                   />
                   <h6 className="card-header">{item.Name}</h6>
                   <div className="card-body">
-                    <p className="card-text links">{item.Description}</p>
-                    <p className="card-text">(Auf github gehostet.)</p>
+                    <p className="card-text links kleiner">
+                      {item.Description}
+                    </p>
+                    <p className="card-text">(auf {item.gehosted} gehosted)</p>
                     <a href={item.url} className="btn btn-primary perso">
                       Ansehen
                     </a>
@@ -55,24 +57,26 @@ export default function Portfolio() {
                     <p
                       className={
                         i !== 1
-                          ? "card-text links"
-                          : "card-text  text-danger links person_p"
-                      }
-                    >
+                          ? 'card-text links  kleiner'
+                          : 'card-text  text-danger links person_p'
+                      }>
                       {item.Description1}
                     </p>
                     <a
                       href="https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/"
                       className={
                         i !== 1
-                          ? "verstecken"
-                          : "btn btn-danger perso_danger mb-3"
-                      }
-                    >
+                          ? 'verstecken'
+                          : 'btn btn-danger perso_danger mb-3'
+                      }>
                       Hier klicken !
                     </a>
-                    <p className="card-text links">{item.Description2}</p>
-                    <p className="card-text links">{item.Description3}</p>
+                    <p className="card-text links  kleiner">
+                      {item.Description2}
+                    </p>
+                    <p className="card-text links  kleiner">
+                      {item.Description3}
+                    </p>
 
                     <p className="card-text">(Auf github gehostet.)</p>
 
@@ -102,7 +106,7 @@ export default function Portfolio() {
                 <div className="card my-3 text-center">
                   <h6 className="card-header">{item.Name}</h6>
                   <div className="card-body">
-                    <p className="card-text">(Auf github gehostet.)</p>
+                    <p className="card-text  kleiner">(Auf github gehostet.)</p>
                     <a href={item.url} className="btn btn-primary perso">
                       Ansehen
                     </a>

@@ -1,6 +1,6 @@
-import React from "react";
-import "./navbar.css";
-import Nav from "react-bootstrap/Nav";
+import React from 'react';
+import './navbar.css';
+import Nav from 'react-bootstrap/Nav';
 
 export default function Navbar() {
   return (
@@ -9,10 +9,9 @@ export default function Navbar() {
       defaultActiveKey="/"
       id="navbarNav"
       className="navbar navbar-expand-lg bg-dark fixed-top"
-      data-bs-theme="dark"
-    >
+      data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/billy__cv/">
+        <a class="navbar-brand" href="/billy-cv/">
           BILLY MB
         </a>
         <button
@@ -22,8 +21,7 @@ export default function Navbar() {
           data-bs-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse  espace_droite" id="navbarNav">
@@ -37,8 +35,7 @@ export default function Navbar() {
               <Nav.Link
                 class="nav-link"
                 aria-current="page"
-                href="#beruflicheLaufbahn"
-              >
+                href="#beruflicheLaufbahn">
                 Berufliche Laufbahn
               </Nav.Link>
             </Nav.Item>

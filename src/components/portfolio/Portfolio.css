@@ -1,0 +1,22 @@
+.perso {
+  background-color: rgb(90, 184, 255);
+
+  border: none;
+}
+
+.links {
+  text-align: left;
+}
+
+.verstecken {
+  display: none;
+  /*   visibility: hidden; */
+}
+
+.perso_danger {
+  margin-top: 1px;
+}
+
+.person_p {
+  margin-bottom: 2px;
+}

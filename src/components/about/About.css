@@ -1,0 +1,13 @@
+.my_color {
+  color: rgb(90, 184, 255);
+}
+
+p {
+  font-size: 20px;
+}
+
+@media (min-width: 991px) {
+  .container {
+    padding: 1rem 5rem 1rem;
+  }
+}

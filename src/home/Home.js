@@ -1,13 +1,13 @@
-import React from "react";
-import "./Home.css";
-import billy_img from "../asserts/imgs/Billy_Babou_2019_carré_500X500px.png";
-import Kenntnisse from "../components/Kenntnisse/Kenntnisse";
-import About from "../components/about/About";
-import BeruflicheLaufbahn from "../components/berufliche Laufbahn/BeruflicheLaufbahn";
-import Lebenslauf from "../components/lebenslauf/Lebenslauf";
-import Portfolio from "../components/portfolio/Portfolio";
-import Kontakt from "../components/kontakt/Kontakt";
-import cv from "../asserts/pdf/Billy_Babou_Lebenslauf_2023.pdf";
+import React from 'react';
+import './Home.css';
+import billy_img from '../asserts/imgs/Billy_Babou_2019_carré_500X500px.png';
+import Kenntnisse from '../components/Kenntnisse/Kenntnisse';
+import About from '../components/about/About';
+import BeruflicheLaufbahn from '../components/berufliche Laufbahn/BeruflicheLaufbahn';
+import Lebenslauf from '../components/lebenslauf/Lebenslauf';
+import Portfolio from '../components/portfolio/Portfolio';
+import Kontakt from '../components/kontakt/Kontakt';
+import cv from '../asserts/pdf/Billy_Babou_Lebenslauf_2023.pdf';
 
 export default function Home() {
   return (
@@ -34,17 +34,16 @@ export default function Home() {
         <a
           type="download"
           href={cv}
-          class="btn btn-primary btn-md btn_blau  mb-5"
-        >
+          class="btn btn-primary btn-md btn_blau  mb-5">
           CV herunterladen !
         </a>
       </div>
 
       <About />
       <BeruflicheLaufbahn />
+      <Portfolio />
       <Kenntnisse />
       <Lebenslauf />
-      <Portfolio />
       <Kontakt />
     </div>
   );

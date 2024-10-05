@@ -11,7 +11,11 @@ export default function Portfolio() {
       <Title title="Portfolio" />
       <div className="my-5">
         <h5 className="mb-1">React</h5>
-        <p>Einige Projekte</p>
+        <p>
+          Derzeit entwickle ich ausschließlich React-Projekte.
+          <br /> Jede 2 Wochen oder jeden Monat füge ich ein neues Projekt
+          hinzu. Diese Woche habe ich 1 Projekt hinzugefügt.
+        </p>
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3">
           {Data_React.map((item, i) => {
             return (

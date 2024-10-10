@@ -10,7 +10,7 @@ export const Data_React = [
     Name: 'APP - Devis Webseite',
     Description:
       'Wir sind eine Angebotsanwendung. Wenn Sie eine Website erstellen möchten, benötigen wir die folgenden Informationen...',
-    url: 'https://billy-java.github.io/4_auth-react-lernen/',
+    url: 'https://devis-webseite.vercel.app/',
     Img: devis_webseite,
     gehosted: 'Vercel',
   },
@@ -18,7 +18,7 @@ export const Data_React = [
     Name: 'APP - Vintage Car',
     Description:
       'Vintage Car ist eine Autovermietungs-App. Benutzer können sich als Lagerhalter registrieren und Lager sowie Dienstleistungen für die gelagerten Autos erstellen und anbieten. Man kann sich auch als Autobesitzer registrieren, um Lager zu suchen, Termine zu vereinbaren und dann den Platz zu reservieren.',
-    url: 'https://billy-java.github.io/4_auth-react-lernen/',
+    url: 'https://vintage-car-taupe.vercel.app',
     Img: vintage_car,
     gehosted: 'Vercel',
   },

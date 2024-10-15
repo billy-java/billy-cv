@@ -19,10 +19,14 @@ const Navbar = ({ setSection }: I_Props_Sidebar) => {
 
   // Mettre à jour la section active lors du premier rendu
   useEffect(() => {
+    toggleNavbar(0);
+
     const activeItem = menus.find((item) => item.activ);
     if (activeItem) {
       setSection(activeItem.titel);
     }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [setSection]);
 
   // Synchroniser `currentSection` avec `menus`
@@ -46,11 +50,13 @@ const Navbar = ({ setSection }: I_Props_Sidebar) => {
           <div className="flex items-center justify-between h-10">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link
-                  className="text-white"
-                  href="/"
-                  onClick={() => dispatch(updateSection__Hilfe('/'))}>
-                  Ich bin Billy
+                <Link href="/" onClick={() => toggleNavbar(0)}>
+                  <Image
+                    src={'/imgs/logo.svg'}
+                    width={30}
+                    height={30}
+                    alt={'logo'}
+                  />
                 </Link>
               </div>
             </div>

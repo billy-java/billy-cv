@@ -8,6 +8,7 @@ import Portfolio from './sections/Portfolio';
 import Laufbahn from './sections/Laufbahn';
 import Kenntnisse from './sections/Kenntnisse';
 import Navbar from './components/Navbar';
+import Head from 'next/head';
 
 export default function Home() {
   const [verstecken, setVerstecken] = useState<boolean>(false);
@@ -34,6 +35,9 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <link rel="icon" href="/favicon.svg" />
+      </Head>
       <Navbar setSection={setSection} />
       <div className="flex">
         {!verstecken && <Sidebar setSection={setSection} />}

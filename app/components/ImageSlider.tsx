@@ -22,10 +22,14 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images, format }) => {
   };
 
   // Définir les dimensions selon le format
-  const dimensions = format === 2 ? { height: 480, width: 854 } : { height: 648, width: 1152 };
+  const dimensions =
+    format === 2 ? { height: 480, width: 854 } : { height: 648, width: 1152 };
 
   return (
-    <div className="relative w-full" style={{ height: format === 2 ? 'auto' : '16rem' }}>
+    <div
+      className={
+        format === 2 ? 'relative w-[960] h-[540]' : 'relative w-[1920] h-[1080]'
+      }>
       <Image
         src={images[currentIndex]}
         alt="Project image"

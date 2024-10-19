@@ -20,7 +20,7 @@ const CardList = ({ kategorie, list }: Props_CardList) => {
             {/* Slider d'images */}
             <ImageSlider images={item.img} format={1} />
 
-            <h6 className="text-lg text-indigo-200 mb-0">{item.name}</h6>
+            <h6 className="text-lg text-indigo-200 mt-4">{item.name}</h6>
 
             <div className="flex-grow mb-4">
               <p className="flex items-center mb-6">

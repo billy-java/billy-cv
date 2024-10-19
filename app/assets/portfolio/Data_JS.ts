@@ -8,6 +8,7 @@ export const Data_JS: I_Projekt[] = [
       'Ein interaktives Dashboard mit responsivem Design für unterschiedliche Bildschirmgrößen.',
     beschreibung_2: 'Verwendet moderne CSS- und JavaScript-Techniken.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 6, 15), 'yyyy-MM-dd'), // 15 juillet 2022
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -21,6 +22,7 @@ export const Data_JS: I_Projekt[] = [
       'Eine einfache Authentifizierungsseite mit Formularvalidierung.',
     beschreibung_2: 'Erfordert E-Mail und Passwort zur Anmeldung.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 3, 10), 'yyyy-MM-dd'), // 10 avril 2022
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -34,6 +36,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2:
       'Fokussiert Arbeiten und Pausen in vordefinierten Zeitintervallen.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 2, 20), 'yyyy-MM-dd'), // 20 mars 2022
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -46,6 +49,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_1: 'Ein Tool zur Erkundung von Farben und Farbkombinationen.',
     beschreibung_2: '',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 1, 5), 'yyyy-MM-dd'), // 5 février 2022
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -59,6 +63,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2:
       'Ermöglicht Nutzern, ihre Eingaben vor dem Absenden zu überprüfen.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 4, 12), 'yyyy-MM-dd'), // 12 mai 2022
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -71,6 +76,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_1: 'Eine To-Do-Liste zur Organisation von Aufgaben.',
     beschreibung_2: 'Nutzer können Aufgaben hinzufügen, abhaken oder löschen.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 11, 20), 'yyyy-MM-dd'), // 20 décembre 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -83,6 +89,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_1: 'Ein benutzerdefinierter Videoplayer mit Steuerungen.',
     beschreibung_2: 'Ermöglicht das Abspielen und Anhalten von Videos.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 10, 28), 'yyyy-MM-dd'), // 28 novembre 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -96,6 +103,7 @@ export const Data_JS: I_Projekt[] = [
       'Ein benutzerdefinierter Audioplayer mit visuellen Effekten.',
     beschreibung_2: 'Ermöglicht das Abspielen und Anhalten von Audiodateien.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 9, 14), 'yyyy-MM-dd'), // 14 octobre 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -109,6 +117,7 @@ export const Data_JS: I_Projekt[] = [
       'Eine Drag-and-Drop-Anwendung, um Elemente visuell zu verschieben.',
     beschreibung_2: '',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 8, 22), 'yyyy-MM-dd'), // 22 septembre 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -121,6 +130,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_1: 'Ein einfaches Quizspiel, um Wissen zu testen.',
     beschreibung_2: 'Mehrere Wahlmöglichkeiten mit sofortiger Bewertung.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 7, 10), 'yyyy-MM-dd'), // 10 août 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -133,6 +143,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_1: 'Ein Memory-Spiel zur Verbesserung der Konzentration.',
     beschreibung_2: 'Finden Sie die passenden Kartenpaare.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 6, 5), 'yyyy-MM-dd'), // 5 juillet 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -145,6 +156,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_1: 'Ein einfacher Bildslider mit Übergangseffekten.',
     beschreibung_2: 'Ermöglicht das Durchblättern von Bildern.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 5, 15), 'yyyy-MM-dd'), // 15 juin 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -159,6 +171,7 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2:
       'Geben Sie einen Benutzernamen ein, um seine Profilinformationen abzurufen.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 4, 30), 'yyyy-MM-dd'), // 30 mai 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -172,6 +185,7 @@ export const Data_JS: I_Projekt[] = [
       'Ein klassisches Tic-Tac-Toe-Spiel gegen einen Computer oder einen zweiten Spieler.',
     beschreibung_2: '',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 3, 25), 'yyyy-MM-dd'), // 25 avril 2021
     sprache: 'JavaScript',
     stand: 'Fertig',
@@ -185,6 +199,7 @@ export const Data_JS: I_Projekt[] = [
       'Ein Casse-Briques-Spiel mit verschiedenen Levels und Steuerelementen.',
     beschreibung_2: '',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2021, 2, 10), 'yyyy-MM-dd'), // 10 mars 2021
     sprache: 'JavaScript',
     stand: 'Fertig',

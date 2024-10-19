@@ -8,6 +8,7 @@ export const Data_Angular: I_Projekt[] = [
       '1- Sie können ein neues Hotel hinfügen, Sie können ein Hotel löschen oder bearbeiten.',
     beschreibung_2: '2- Sie können ein Hotel löschen oder bearbeiten.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
     sprache: 'Angular',
     stand: 'Fertig',
@@ -27,7 +28,8 @@ export const Data_Angular: I_Projekt[] = [
       'https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/',
     beschreibung_3:
       'Schreiben Sie den Namen eines Superhelden. Sie können einen Superhelden zu den Favoriten hinzufügen',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
+   
+      beschreibung_4: '', erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
     sprache: 'Angular',
     stand: 'Fertig',
     gehosted: 'GitHub',
@@ -42,6 +44,7 @@ export const Data_Angular: I_Projekt[] = [
     beschreibung_1: '1- Sie können einen Film zu den Favoriten hinfügen.',
     beschreibung_2: '2- Sie können auch einen Film bewerten.',
     beschreibung_3: '',
+    beschreibung_4: '',
     erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
     sprache: 'Angular',
     stand: 'Fertig',

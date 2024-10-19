@@ -3,6 +3,7 @@ export interface I_Projekt {
   beschreibung_1: string;
   beschreibung_2: string;
   beschreibung_3: string;
+  beschreibung_4: string;
   erstellungsdatum: string;
   sprache: string; 
   stand: string;

@@ -5,9 +5,13 @@ export const Data_React: I_Projekt[] = [
   {
     name: 'APP - Devis Webseite',
     beschreibung_1:
-      'Wir sind eine Angebotsanwendung. Wenn Sie eine Website erstellen möchten, benötigen wir die folgenden Informationen.',
-    beschreibung_2: '',
-    beschreibung_3: '',
+      'Das eine Angebotsanwendung. Wenn Sie eine Website erstellen möchten, benötigen wir die folgenden Informationen.',
+    beschreibung_2:
+      'Next.js, Redux/Toolkit, Tailwind CSS, TypeScript, Node.js, Git, Vercel.',
+    beschreibung_3:
+      'CRUD-Operationen, Datenübertragung und -management in der gesamten App, Deployment und Hosting, Frontend- und Backend-Entwicklung, Testing und Debugging, Performance-Optimierung.',
+    beschreibung_4:
+      'Diese App hilft den Benutzern, ihre individuelle Website zu erstellen. Um dies zu erreichen, benötigen wir einige wichtige Informationen: Ihre Bilder, den gewünschten Domainnamen, den Inhalt Ihrer Seiten, Ihre Öffnungszeiten und Kontaktdaten. Sobald Sie uns diese Informationen bereitgestellt haben, können wir mit der Erstellung Ihrer Website beginnen.',
     erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
     sprache: 'Nextjs',
     stand: 'Fertig',
@@ -19,9 +23,12 @@ export const Data_React: I_Projekt[] = [
     name: 'APP - Vintage Car',
     beschreibung_1:
       'Vintage Car ist eine Autovermietungs-App. Benutzer können sich als Lagerhalter registrieren und Lager sowie Dienstleistungen für die gelagerten Autos erstellen und anbieten. Man kann sich auch als Autobesitzer registrieren, um Lager zu suchen, Termine zu vereinbaren und dann den Platz zu reservieren.',
-    beschreibung_2: '',
-    beschreibung_3: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
+    beschreibung_2: 'React, Redux, Node.js, Express, Firebase, Git, Vercel.',
+    beschreibung_3:
+      'Benutzerverwaltung, CRUD-Operationen für Autos und Lager, Authentifizierung, Datenbankanbindung, Datenbankmanagement, Responsive Design.',
+    beschreibung_4:
+      'Diese App ermöglicht es Nutzern, Autos zu mieten und Lager für ihre Fahrzeuge zu verwalten. Benutzer können sich registrieren, ihre Autos hinzufügen und Dienstleistungen anbieten oder anfragen.',
+    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
     sprache: 'React',
     stand: 'Fertig',
     gehosted: 'Vercel',
@@ -29,27 +36,33 @@ export const Data_React: I_Projekt[] = [
     url: 'https://vintage-car-taupe.vercel.app',
   },
   {
-    name: 'APP - Authentification',
-    beschreibung_1: 'React Authentification APP mit Firebase.',
-    beschreibung_2: '',
-    beschreibung_3: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
-    sprache: 'react',
+    name: 'APP - Authentifikation',
+    beschreibung_1: 'React Authentifikation APP mit Firebase.',
+    beschreibung_2: 'React, Firebase, Redux, Git.',
+    beschreibung_3:
+      'Sicherheit, Benutzerregistrierung und -anmeldung, Authentifizierung mit Firebase, Zustandverwaltung mit Redux, Echtzeit-Datenbankanbindung.',
+    beschreibung_4:
+      'Diese App ermöglicht Benutzern die Registrierung und Authentifizierung über Firebase. Es bietet eine einfache Möglichkeit, Benutzer zu verwalten und ihre Daten zu speichern.',
+    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
     img: [
       '/imgs/next/APP-Authentification.webp',
-      '/imgs/next/APP-Authentification-1.webp',
+      '/imgs/next/APP-Authentifikation-1.webp',
     ],
     url: 'https://billy-java.github.io/4_auth-react-lernen/',
   },
   {
     name: 'Multi Step Validation Form',
-    beschreibung_1: 'Die Daten sind in der Konsole sichbar.',
-    beschreibung_2: '',
-    beschreibung_3: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
-    sprache: 'react',
+    beschreibung_1: 'Die Daten sind in der Konsole sichtbar.',
+    beschreibung_2: 'React, Git.',
+    beschreibung_3:
+      'Multi-Step-Formularvalidierung, Zustandverwaltung, benutzerdefinierte Validierungslogik.',
+    beschreibung_4:
+      'Diese App zeigt, wie man ein mehrstufiges Formular mit Validierung erstellt. Die Daten werden in der Konsole angezeigt, um die Funktionsweise zu demonstrieren.',
+    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
     img: [
@@ -61,10 +74,13 @@ export const Data_React: I_Projekt[] = [
   {
     name: 'Multi Sprache App',
     beschreibung_1: 'Multi Sprache React App.',
-    beschreibung_2: '',
-    beschreibung_3: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
-    sprache: 'react',
+    beschreibung_2: 'React, Git.',
+    beschreibung_3:
+      'Internationale Unterstützung, mehrsprachige Benutzeroberfläche, Zustandverwaltung.',
+    beschreibung_4:
+      'Diese App ermöglicht die Verwendung mehrerer Sprachen und bietet eine benutzerfreundliche Oberfläche für internationale Benutzer.',
+    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
     img: [
@@ -76,10 +92,13 @@ export const Data_React: I_Projekt[] = [
   {
     name: 'Slide - App',
     beschreibung_1: 'React Slide App mit Firebase.',
-    beschreibung_2: '',
-    beschreibung_3: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
-    sprache: 'react',
+    beschreibung_2: 'React,  Git.',
+    beschreibung_3:
+      'Meine erste React-App, ich hatte useState, useEffect gelernt.',
+    beschreibung_4:
+      'Diese App ermöglicht das Hochladen und Anzeigen von Bildern in Echtzeit mit Firebase-Integration.',
+    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
     img: ['/imgs/next/1_slide_react.webp'],

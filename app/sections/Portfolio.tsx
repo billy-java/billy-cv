@@ -30,10 +30,14 @@ const Portfolio = ({ section }: I_Props_Titel) => {
         ) : (
           <div>
             {currentSection2 === 'NextJS / React' && (
-              <CardList list={Data_React} />
+              <CardList kategorie={'nextjs-react'} list={Data_React} />
             )}
-            {currentSection2 === 'Angular' && <CardList list={Data_Angular} />}
-            {currentSection2 === 'JavaScript' && <CardList list={Data_JS} />}
+            {currentSection2 === 'Angular' && (
+              <CardList kategorie={'angular'} list={Data_Angular} />
+            )}
+            {currentSection2 === 'JavaScript' && (
+              <CardList kategorie={'javascript'} list={Data_JS} />
+            )}
           </div>
         )}
       </div>

@@ -1,3 +1,6 @@
+//app\components\Loader.tsx
+
+
 import React from 'react';
 
 function Loader() {

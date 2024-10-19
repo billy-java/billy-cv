@@ -2,8 +2,6 @@ import React from 'react';
 import { Data_Lebenslauf } from '../assets/Data_Lebenslauf';
 import { I_Props_Titel } from '../assets/I_Props_Titel';
 
-
-
 export default function Lebenslauf({ section }: I_Props_Titel) {
   return (
     <div
@@ -26,7 +24,9 @@ export default function Lebenslauf({ section }: I_Props_Titel) {
               <p>
                 Wann:{' '}
                 <span className="text-indigo-400">
-                  {item.Datum_Start} bis {item.Datum_End}
+                  {item.Datum_End || item.Datum_Start
+                    ? item.Datum_Start + ' bis ' + item.Datum_End
+                    : 'Heute'}
                 </span>
               </p>
             </div>

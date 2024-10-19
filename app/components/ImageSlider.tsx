@@ -1,7 +1,14 @@
+// app/components/ImageSlider.tsx
+
 import React, { useState } from 'react';
 import Image from 'next/image';
 
-const ImageSlider = ({ images }: { images: string[] }) => {
+interface ImageSliderProps {
+  images: string[];
+  format: number; // Ajoutez le paramètre format ici
+}
+
+const ImageSlider: React.FC<ImageSliderProps> = ({ images, format }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -14,14 +21,17 @@ const ImageSlider = ({ images }: { images: string[] }) => {
     setCurrentIndex(newIndex);
   };
 
+  // Définir les dimensions selon le format
+  const dimensions = format === 2 ? { height: 480, width: 854 } : { height: 648, width: 1152 };
+
   return (
-    <div className="relative w-full h-64 mb-6 overflow-hidden">
+    <div className="relative w-full" style={{ height: format === 2 ? 'auto' : '16rem' }}>
       <Image
         src={images[currentIndex]}
         alt="Project image"
-        height={648}
-        width={1152}
-        className="rounded-lg object-contain" // Changer à object-contain
+        height={dimensions.height}
+        width={dimensions.width}
+        className="rounded-lg object-cover" // Changer à object-cover pour mieux remplir le conteneur
         priority={true}
       />
 

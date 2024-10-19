@@ -15,20 +15,24 @@ export default function Lebenslauf({ section }: I_Props_Titel) {
             <div
               key={i}
               className="border-[1px] rounded-lg p-5 shadow-indigo-300 shadow-lg mb-8">
-              <h6 className="text-lg text-indigo-200 mb-4">
-                {i + 1 + ': ' + item.Niveau}
-              </h6>
-              <p className="mb-1">
-                Wo: {item.Stadt} - {item.Land}
-              </p>
-              <p>
-                Wann:{' '}
-                <span className="text-indigo-400">
-                  {item.Datum_End || item.Datum_Start
-                    ? item.Datum_Start + ' bis ' + item.Datum_End
-                    : 'Heute'}
-                </span>
-              </p>
+              {item.Stadt === null ? (
+                <h6 className="text-lg text-indigo-200 mb-4">{item.Niveau}</h6>
+              ) : (
+                <>
+                  <h6 className="text-lg text-indigo-200 mb-4">
+                    {i + ': ' + item.Niveau}
+                  </h6>
+                  <p className="mb-1">
+                    Wo: {item.Stadt} - {item.Land}
+                  </p>
+                  <p>
+                    Wann:
+                    <span className="text-indigo-400">
+                      {item.Datum_Start + ' bis ' + item.Datum_End}
+                    </span>
+                  </p>
+                </>
+              )}
             </div>
           );
         })}

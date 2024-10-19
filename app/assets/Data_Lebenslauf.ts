@@ -1,8 +1,8 @@
 export const Data_Lebenslauf = [
   {
     Niveau: 'Ich suche derzeit ein Praktikum und werde meine Bachelorarbeit in einigen Monaten abschließen.',
-    Stadt: 'Gießen',
-    Land: 'Deutschland',
+    Stadt: null,
+    Land: null,
     Datum_Start: null,
     Datum_End: null,
   },

@@ -6,6 +6,7 @@ import { Data_Angular } from '../assets/portfolio/Data_Angular';
 import { Data_JS } from '../assets/portfolio/Data_JS';
 import CardList from '../components/CardList';
 import Loader from '../components/Loader';
+import MeineDaten from '../components/MeineDaten';
 
 const Portfolio = ({ section }: I_Props_Titel) => {
   const [currentSection2, setCurrentSection2] =
@@ -21,6 +22,7 @@ const Portfolio = ({ section }: I_Props_Titel) => {
 
   return (
     <div className="my-10 text-gray-300" id="Lebenslauf">
+      <MeineDaten version={2} />
       <h1 className="text-indigo-400 mb-20 text-3xl text-center">{section}</h1>
       <Navbar_2 setSection2={handleSectionChange} />{' '}
       {/* Passer la fonction pour changer de section */}

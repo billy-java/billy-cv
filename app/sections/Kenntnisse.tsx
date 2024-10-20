@@ -1,6 +1,7 @@
 import React from 'react';
 import { I_Props_Titel } from '../assets/I_Props_Titel';
 import { Data_Kenntnisse } from '../assets/Data_Kenntnisse'; // Importer le tableau fusionné
+import MeineDaten from '../components/MeineDaten';
 
 const Kenntnisse = ({ section }: I_Props_Titel) => {
   // Créer un tableau unique des catégories pour les titres
@@ -10,6 +11,8 @@ const Kenntnisse = ({ section }: I_Props_Titel) => {
 
   return (
     <div className="my-10 text-gray-300" id="Lebenslauf">
+      <MeineDaten version={2} />
+      
       <h1 className="text-indigo-400 mb-20 text-3xl text-center">{section}</h1>
 
       {/* Grille pour afficher les cartes */}

@@ -1,13 +1,16 @@
 import React from 'react';
 import { I_Props_Titel } from '../assets/I_Props_Titel';
+import MeineDaten from '../components/MeineDaten';
 
 export default function About({ section }: I_Props_Titel) {
   return (
     <div className="flex items-center my-10 text-gray-300" id="about">
       <div className="lg:w-[60%] xl:w-[50%] w-[90%] mx-auto">
+        <MeineDaten version={2} />
         <h1 className="text-indigo-400 mb-20 text-3xl text-center">
           {section}
         </h1>
+
         <p className="text-lg mb-5">
           Ursprünglich aus Kamerun, habe ich in der IT mit Computerwartung und
           -reparatur angefangen. Im Laufe der Zeit entdeckte ich dann in

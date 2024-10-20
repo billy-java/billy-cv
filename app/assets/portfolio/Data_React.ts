@@ -35,6 +35,7 @@ export const Data_React: I_Projekt[] = [
     img: ['/imgs/next/vintage-car.webp', '/imgs/next/vintage-car-1.webp'],
     url: 'https://vintage-car-taupe.vercel.app',
   },
+  /* Ab hier neue Projekte hinfügen */
   {
     name: 'APP - Authentifikation',
     beschreibung_1: 'React Authentifikation APP mit Firebase.',

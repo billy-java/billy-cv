@@ -68,12 +68,10 @@ const Navbar = ({ setSection }: I_Props_Sidebar) => {
                     onClick={() => toggleNavbar(index)}
                     className={`${
                       el.activ
-                        ? 'bg-gray-300 rounded-md mx-1 px-2 py-1 text-sm text-gray-800'
-                        : 'bg-gray-900 rounded-md mx-1 px-2 py-1 hover:bg-gray-200 text-sm hover:text-gray-800'
+                        ? 'bg-gray-300 rounded-md mx-1 px-2 py-1 text-sm text-gray-800 cursor-pointer'
+                        : 'bg-gray-900 rounded-md mx-1 px-2 py-1 hover:bg-gray-200 text-sm hover:text-gray-800 cursor-pointer'
                     }`}>
-                    <Link href={el.url} className="flex items-center space-x-1">
-                      <p>{el.titel}</p>
-                    </Link>
+                    <p className="flex items-center space-x-1">{el.titel}</p>
                   </div>
                 ))}
               </div>
@@ -101,12 +99,10 @@ const Navbar = ({ setSection }: I_Props_Sidebar) => {
                     onClick={() => toggleNavbar(index)}
                     className={`${
                       el.activ
-                        ? 'bg-gray-900 hover:bg-gray-200 hover:text-black rounded-md mx-1 px-2 py-1 text-sm text-white'
-                        : 'rounded-md mx-1 px-2 py-1 hover:bg-gray-200 text-sm hover:text-gray-800'
+                        ? 'bg-gray-900 hover:bg-gray-200 hover:text-black rounded-md mx-1 px-2 py-1 text-sm text-white cursor-pointer'
+                        : 'rounded-md mx-1 px-2 py-1 hover:bg-gray-200 text-sm hover:text-gray-800 cursor-pointer'
                     }`}>
-                    <Link href={el.url} className="flex items-center space-x-1">
-                      <p>{el.titel}</p>
-                    </Link>
+                    <p className="flex items-center space-x-1">{el.titel}</p>
                   </div>
                 ))}
               </div>

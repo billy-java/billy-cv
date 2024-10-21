@@ -35,6 +35,22 @@ export const Data_React: I_Projekt[] = [
     img: ['/imgs/next/vintage-car.webp', '/imgs/next/vintage-car-1.webp'],
     url: 'https://vintage-car-taupe.vercel.app',
   },
+  {
+    name: 'Billy-Shop - E-Commerce',
+    beschreibung_1:
+      'Billy-Shop ist eine E-Commerce Webseite.',
+    beschreibung_2: 'React, Redux, Node.js, Express, Firebase, Git, Vercel.',
+    beschreibung_3:
+      'Benutzerverwaltung, CRUD-Operationen für Autos und Lager, Authentifizierung, Datenbankanbindung, Datenbankmanagement, Responsive Design.',
+    beschreibung_4:
+      'Benutzer können Kleidungen für Männer, Frauen und Kinder kaufen.',
+    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    sprache: 'NextJS',
+    stand: 'in Bearbeitung...',
+    gehosted: 'Vercel',
+    img: ['/imgs/next/billy-shop.webp'],
+    url: 'https://billy-shop.vercel.app',
+  },
   /* Ab hier neue Projekte hinfügen */
   {
     name: 'APP - Authentifikation',

@@ -10,19 +10,25 @@ import { Data_React } from '@/app/assets/portfolio/Data_React';
 import Link from 'next/link';
 
 const ProjectDetail = () => {
-  const { id } = useParams();
+  const { nameParam } = useParams();
   const [projekt, setProjekt] = useState<I_Projekt | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchProject = () => {
-      const projectData: I_Projekt = Data_React[Number(id) - 1];
-      setProjekt(projectData);
-      setLoading(false);
+      const projectData = Data_React.find((el) => el.path === nameParam);
+
+      if (projectData) {
+        setProjekt(projectData);
+        setLoading(false);
+      } else {
+        setProjekt(null);
+        setLoading(false);
+      }
     };
 
     fetchProject();
-  }, [id]);
+  }, [nameParam]);
 
   if (loading) {
     return <Loader />;
@@ -34,13 +40,15 @@ const ProjectDetail = () => {
         <div className="flex flex-col text-center">
           <h1 className="text-indigo-400 text-4xl mb-10">
             <span className="text-red-500">404 </span> | Kein Projekt gefunden
-            für die ID: {id}
+            für die ID: {'https://billy-cv.vercel.app/' + nameParam}
           </h1>
           <h1 className="text-indigo-400 text-4xl">
             {'Es gibt "' + Data_React.length + '" Projekte.'}
           </h1>
           <h1 className="text-indigo-400 text-4xl">
-            {'Das letztes Projekt hat die ID "' + Data_React.length + '".'}
+            {
+              'Gehen Sie bitte auf "https://billy-cv.vercel.app/", um alle Projekte zu sehen.'
+            }
           </h1>
         </div>
       </div>

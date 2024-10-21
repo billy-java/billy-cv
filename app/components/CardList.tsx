@@ -12,7 +12,6 @@ const CardList = ({ kategorie, list }: Props_CardList) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 mt-10 gap-6">
       {list.map((item, i) => {
-        const projectLink = String(i + 1);
         return (
           <div
             key={i}
@@ -36,10 +35,10 @@ const CardList = ({ kategorie, list }: Props_CardList) => {
             </div>
 
             {/* Lien en bas de la carte */}
-            {kategorie === 'nextjs-react' && (
+            {kategorie === 'nextjs-react' && item.path && (
               <Link
                 className="mb-4 bg-emerald-600 rounded-lg hover:bg-emerald-400 hover:text-black px-4 py-2 text-center text-white"
-                href={'/' + projectLink}
+                href={'/' + item.path}
                 target="_blank"
                 rel="noopener noreferrer">
                 Mehr Details sehen

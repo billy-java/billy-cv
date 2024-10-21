@@ -18,6 +18,7 @@ export const Data_React: I_Projekt[] = [
     gehosted: 'Vercel',
     img: ['/imgs/next/devis-webseite.webp', '/imgs/next/devis-webseite-1.webp'],
     url: 'https://devis-webseite.vercel.app/',
+    path: 'devis-webseite',
   },
   {
     name: 'APP - Vintage Car',
@@ -34,6 +35,7 @@ export const Data_React: I_Projekt[] = [
     gehosted: 'Vercel',
     img: ['/imgs/next/vintage-car.webp', '/imgs/next/vintage-car-1.webp'],
     url: 'https://vintage-car-taupe.vercel.app',
+    path: 'vintage-car',
   },
   {
     name: 'Billy-Shop - E-Commerce',
@@ -50,6 +52,7 @@ export const Data_React: I_Projekt[] = [
     gehosted: 'Vercel',
     img: ['/imgs/next/billy-shop.webp'],
     url: 'https://billy-shop.vercel.app',
+    path: 'billy-shop',
   },
   /* Ab hier neue Projekte hinfügen */
   {
@@ -69,6 +72,7 @@ export const Data_React: I_Projekt[] = [
       '/imgs/next/APP-Authentifikation-1.webp',
     ],
     url: 'https://billy-java.github.io/4_auth-react-lernen/',
+    path: 'auth-app',
   },
   {
     name: 'Multi Step Validation Form',
@@ -87,6 +91,7 @@ export const Data_React: I_Projekt[] = [
       '/imgs/next/3_multi_step_validation_react-1.webp',
     ],
     url: 'https://billy-java.github.io/3_multi_step_validation_react/',
+    path: 'formular',
   },
   {
     name: 'Multi Sprache App',
@@ -105,6 +110,7 @@ export const Data_React: I_Projekt[] = [
       '/imgs/next/2_multi_sprache_react-1.webp',
     ],
     url: 'https://billy-java.github.io/2_multi_sprache_react/',
+    path: 'multi-sprache',
   },
   {
     name: 'Slide - App',
@@ -120,5 +126,6 @@ export const Data_React: I_Projekt[] = [
     gehosted: 'GitHub',
     img: ['/imgs/next/1_slide_react.webp'],
     url: 'https://billy-java.github.io/1_slide_react/',
+    path: 'slide',
   },
 ];

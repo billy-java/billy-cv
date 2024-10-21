@@ -10,4 +10,5 @@ export interface I_Projekt {
   gehosted: string;
   img: string[];
   url: string;
+  path?: string;
 }

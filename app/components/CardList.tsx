@@ -15,8 +15,20 @@ const CardList = ({ kategorie, list }: Props_CardList) => {
         return (
           <div
             key={i}
-            className="flex flex-col border rounded-lg p-5 shadow-indigo-300 shadow-lg mb-6 h-full overflow-hidden">
-            {/* Slider d'images */}
+            className={`flex flex-col border rounded-lg p-5 ${
+              item.stand === 'Fertig'
+                ? 'shadow-indigo-300'
+                : 'border-red-400 border-2'
+            } shadow-lg mb-6 h-full overflow-hidden`}>
+            <span
+              className={`text-center p-2 text-black rounded-lg ${
+                item.stand === 'Fertig'
+                  ? 'bg-indigo-300'
+                  : 'bg-red-400 shadow-2xl'
+              }`}>
+              {item.stand === 'Fertig' ? item.stand + '.' : item.stand + '...'}
+            </span>
+
             <ImageSlider images={item.img} format={1} />
 
             <h6 className="text-lg text-indigo-200 mt-4">{item.name}</h6>

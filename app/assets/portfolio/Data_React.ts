@@ -48,7 +48,7 @@ export const Data_React: I_Projekt[] = [
       'Benutzer können Kleidungen für Männer, Frauen und Kinder kaufen.',
     erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
     sprache: 'NextJS',
-    stand: 'in Bearbeitung...',
+    stand: 'Ich arbeite an der Website',
     gehosted: 'Vercel',
     img: ['/imgs/next/billy-shop.webp'],
     url: 'https://billy-shop.vercel.app',

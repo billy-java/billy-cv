@@ -1,5 +1,6 @@
 import { format } from 'date-fns';
 import { I_Projekt } from '../I_Projekt';
+import { de } from 'date-fns/locale';
 
 export const Data_JS: I_Projekt[] = [
   {
@@ -9,7 +10,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Verwendet moderne CSS- und JavaScript-Techniken.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 6, 15), 'yyyy-MM-dd'), // 15 juillet 2022
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -23,7 +26,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Erfordert E-Mail und Passwort zur Anmeldung.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 3, 10), 'yyyy-MM-dd'), // 10 avril 2022
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -37,7 +42,9 @@ export const Data_JS: I_Projekt[] = [
       'Fokussiert Arbeiten und Pausen in vordefinierten Zeitintervallen.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 2, 20), 'yyyy-MM-dd'), // 20 mars 2022
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -50,7 +57,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: '',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 1, 5), 'yyyy-MM-dd'), // 5 février 2022
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -64,7 +73,9 @@ export const Data_JS: I_Projekt[] = [
       'Ermöglicht Nutzern, ihre Eingaben vor dem Absenden zu überprüfen.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 4, 12), 'yyyy-MM-dd'), // 12 mai 2022
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -77,7 +88,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Nutzer können Aufgaben hinzufügen, abhaken oder löschen.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 11, 20), 'yyyy-MM-dd'), // 20 décembre 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -90,7 +103,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Ermöglicht das Abspielen und Anhalten von Videos.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 10, 28), 'yyyy-MM-dd'), // 28 novembre 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -104,7 +119,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Ermöglicht das Abspielen und Anhalten von Audiodateien.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 9, 14), 'yyyy-MM-dd'), // 14 octobre 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -118,7 +135,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: '',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 8, 22), 'yyyy-MM-dd'), // 22 septembre 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -131,7 +150,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Mehrere Wahlmöglichkeiten mit sofortiger Bewertung.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 7, 10), 'yyyy-MM-dd'), // 10 août 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -144,7 +165,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Finden Sie die passenden Kartenpaare.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 6, 5), 'yyyy-MM-dd'), // 5 juillet 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -157,7 +180,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: 'Ermöglicht das Durchblättern von Bildern.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 5, 15), 'yyyy-MM-dd'), // 15 juin 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -172,7 +197,9 @@ export const Data_JS: I_Projekt[] = [
       'Geben Sie einen Benutzernamen ein, um seine Profilinformationen abzurufen.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 4, 30), 'yyyy-MM-dd'), // 30 mai 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -186,7 +213,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: '',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 3, 25), 'yyyy-MM-dd'), // 25 avril 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',
@@ -200,7 +229,9 @@ export const Data_JS: I_Projekt[] = [
     beschreibung_2: '',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2021, 2, 10), 'yyyy-MM-dd'), // 10 mars 2021
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'JavaScript',
     stand: 'Fertig',
     gehosted: 'GitHub Pages',

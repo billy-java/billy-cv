@@ -92,10 +92,14 @@ const ProjectDetail = () => {
           Zusätzliche Details
         </h3>
         <p className="text-center">
-          {projekt.stand} seit {projekt.erstellungsdatum}
+          <span className="text-blue-300">Zustand:</span> {projekt.stand}
         </p>
         <p className="text-center">
-          Gehostet auf:{' '}
+          <span className="text-blue-300">Angefangen am:</span>{' '}
+          {projekt.erstellungsdatum}
+        </p>
+        <p className="text-center">
+          <span className="text-blue-300">Gehostet auf:</span>{' '}
           <span className="text-indigo-600">{projekt.gehosted}</span>
         </p>
       </div>

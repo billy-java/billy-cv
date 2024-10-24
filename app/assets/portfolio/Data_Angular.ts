@@ -1,5 +1,6 @@
 import { format } from 'date-fns';
 import { I_Projekt } from '../I_Projekt';
+import { de } from 'date-fns/locale';
 
 export const Data_Angular: I_Projekt[] = [
   {
@@ -9,7 +10,9 @@ export const Data_Angular: I_Projekt[] = [
     beschreibung_2: '2- Sie können ein Hotel löschen oder bearbeiten.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'Angular',
     stand: 'Fertig',
     gehosted: 'GitHub',
@@ -28,8 +31,11 @@ export const Data_Angular: I_Projekt[] = [
       'https://cors-anywhere.herokuapp.com/https://superheroapi.com/api/',
     beschreibung_3:
       'Schreiben Sie den Namen eines Superhelden. Sie können einen Superhelden zu den Favoriten hinzufügen',
-   
-      beschreibung_4: '', erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
+
+    beschreibung_4: '',
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'Angular',
     stand: 'Fertig',
     gehosted: 'GitHub',
@@ -45,7 +51,9 @@ export const Data_Angular: I_Projekt[] = [
     beschreibung_2: '2- Sie können auch einen Film bewerten.',
     beschreibung_3: '',
     beschreibung_4: '',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'Angular',
     stand: 'Fertig',
     gehosted: 'GitHub',

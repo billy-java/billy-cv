@@ -53,7 +53,7 @@ const CardList = ({ kategorie, list }: Props_CardList) => {
                 href={'/' + item.path}
                 target="_blank"
                 rel="noopener noreferrer">
-                Mehr Details sehen
+                Mehr Details ansehen
               </Link>
             )}
             <Link
@@ -61,7 +61,7 @@ const CardList = ({ kategorie, list }: Props_CardList) => {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer">
-              Das Projekt sehen
+              Das Projekt ansehen
             </Link>
             <p className="text-center mt-5">
               Auf <span className="text-indigo-600">{item.gehosted + ' '}</span>

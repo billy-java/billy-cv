@@ -1,4 +1,6 @@
 import { format } from 'date-fns';
+import { de } from 'date-fns/locale';
+
 import { I_Projekt } from '../I_Projekt';
 
 export const Data_React: I_Projekt[] = [
@@ -12,9 +14,11 @@ export const Data_React: I_Projekt[] = [
       'CRUD-Operationen, Datenübertragung und -management in der gesamten App, Deployment und Hosting, Frontend- und Backend-Entwicklung, Testing und Debugging, Performance-Optimierung.',
     beschreibung_4:
       'Diese App hilft den Benutzern, ihre individuelle Website zu erstellen. Um dies zu erreichen, benötigen wir einige wichtige Informationen: Ihre Bilder, den gewünschten Domainnamen, den Inhalt Ihrer Seiten, Ihre Öffnungszeiten und Kontaktdaten. Sobald Sie uns diese Informationen bereitgestellt haben, können wir mit der Erstellung Ihrer Website beginnen.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'), // 2 octobre 1995,
+    erstellungsdatum: format(new Date(2024, 9, 20), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'Nextjs',
-    stand: 'Fertig',
+    stand: 'Ich arbeite an der Website',
     gehosted: 'Vercel',
     img: ['/imgs/next/devis-webseite.webp', '/imgs/next/devis-webseite-1.webp'],
     url: 'https://devis-webseite.vercel.app/',
@@ -29,7 +33,9 @@ export const Data_React: I_Projekt[] = [
       'Benutzerverwaltung, CRUD-Operationen für Autos und Lager, Authentifizierung, Datenbankanbindung, Datenbankmanagement, Responsive Design.',
     beschreibung_4:
       'Diese App ermöglicht es Nutzern, Autos zu mieten und Lager für ihre Fahrzeuge zu verwalten. Benutzer können sich registrieren, ihre Autos hinzufügen und Dienstleistungen anbieten oder anfragen.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    erstellungsdatum: format(new Date(2024, 5, 12), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'React',
     stand: 'Fertig',
     gehosted: 'Vercel',
@@ -39,14 +45,15 @@ export const Data_React: I_Projekt[] = [
   },
   {
     name: 'Billy-Shop - E-Commerce',
-    beschreibung_1:
-      'Billy-Shop ist eine E-Commerce Webseite.',
+    beschreibung_1: 'Billy-Shop ist eine E-Commerce Webseite.',
     beschreibung_2: 'React, Redux, Node.js, Express, Firebase, Git, Vercel.',
     beschreibung_3:
       'Benutzerverwaltung, CRUD-Operationen für Autos und Lager, Authentifizierung, Datenbankanbindung, Datenbankmanagement, Responsive Design.',
     beschreibung_4:
       'Benutzer können Kleidungen für Männer, Frauen und Kinder kaufen.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    erstellungsdatum: format(new Date(2024, 10, 23), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'NextJS',
     stand: 'Ich arbeite an der Website',
     gehosted: 'Vercel',
@@ -63,7 +70,9 @@ export const Data_React: I_Projekt[] = [
       'Sicherheit, Benutzerregistrierung und -anmeldung, Authentifizierung mit Firebase, Zustandverwaltung mit Redux, Echtzeit-Datenbankanbindung.',
     beschreibung_4:
       'Diese App ermöglicht Benutzern die Registrierung und Authentifizierung über Firebase. Es bietet eine einfache Möglichkeit, Benutzer zu verwalten und ihre Daten zu speichern.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
@@ -82,7 +91,9 @@ export const Data_React: I_Projekt[] = [
       'Multi-Step-Formularvalidierung, Zustandverwaltung, benutzerdefinierte Validierungslogik.',
     beschreibung_4:
       'Diese App zeigt, wie man ein mehrstufiges Formular mit Validierung erstellt. Die Daten werden in der Konsole angezeigt, um die Funktionsweise zu demonstrieren.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
@@ -101,7 +112,9 @@ export const Data_React: I_Projekt[] = [
       'Internationale Unterstützung, mehrsprachige Benutzeroberfläche, Zustandverwaltung.',
     beschreibung_4:
       'Diese App ermöglicht die Verwendung mehrerer Sprachen und bietet eine benutzerfreundliche Oberfläche für internationale Benutzer.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    erstellungsdatum: format(new Date(2022, 0, 1), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
@@ -120,7 +133,9 @@ export const Data_React: I_Projekt[] = [
       'Meine erste React-App, ich hatte useState, useEffect gelernt.',
     beschreibung_4:
       'Diese App ermöglicht das Hochladen und Anzeigen von Bildern in Echtzeit mit Firebase-Integration.',
-    erstellungsdatum: format(new Date(2022, 8, 2), 'yyyy-MM-dd'),
+    erstellungsdatum: format(new Date(2022, 8, 2), 'dd.MM.yyyy', {
+      locale: de,
+    }),
     sprache: 'React',
     stand: 'Fertig',
     gehosted: 'GitHub',
